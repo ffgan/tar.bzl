@@ -19,7 +19,7 @@ archive_override(
 )
 
 bazel_dep(name = "bazelrc-preset.bzl", version = "1.2.0", dev_dependency = True)
-bazel_dep(name = "buildifier_prebuilt", version = "8.0.3", dev_dependency = True)
+bazel_dep(name = "buildifier_prebuilt", version = "8.2.1.1", dev_dependency = True)
 bazel_dep(name = "rules_shell", version = "0.4.0", dev_dependency = True)
 
 toolchains = use_extension("//tar:extensions.bzl", "toolchains")
