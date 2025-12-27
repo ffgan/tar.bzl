@@ -21,6 +21,10 @@ BSDTAR_PREBUILT = {
         "https://github.com/aspect-build/bsdtar-prebuilt/releases/download/v3.8.1-fix.1/tar_linux_arm64",
         "683468ae45d371e4f392b0e5a524440f6f4507d7da0db60d03ff31f3cf951fc3",
     ),
+    "linux_riscv64": (
+        "https://github.com/ffgan/bsdtar-prebuilt/releases/download/v3.7.2-1-riscv64/tar_linux_riscv64",
+        "5bac9d3e4d07feefc0194d2f02e1d602f22a698d6809fdeed938c81c757fe81c",
+    ),
     "windows_arm64": (
         "https://github.com/aspect-build/bsdtar-prebuilt/releases/download/v3.8.1-fix.1/tar_windows_arm64.exe",
         "130d69268b0a387bca387d00663821779dd1915557caf7fcbfd5ded3f41074f3",
